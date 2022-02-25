@@ -1,0 +1,4 @@
+github.com/devlights/gomy v0.3.2 h1:6hmvXbdct6s2958Nw3z96rs7Ygp5QHjylhsRzlCXBW8=
+github.com/devlights/gomy v0.3.2/go.mod h1:bVnStsTE5VEaqIW7DWekDqVddOBAXLO1e45PefoqDmk=
+github.com/mattn/go-sqlite3 v1.14.11 h1:gt+cp9c0XGqe9S/wAHTL3n/7MqY+siPWgWJgqdsFrzQ=
+github.com/mattn/go-sqlite3 v1.14.11/go.mod h1:NyWgC/yNuGj7Q9rpYnZvas74GogHl5/Z4A/KQRfk6bU=

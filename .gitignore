@@ -13,3 +13,11 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# Project specific
+.idea/
+bin/
+tags
+.target
+chinook.db
+*.swp

@@ -1,0 +1,9 @@
+
+image: gitpod/workspace-go:latest
+tasks:
+  - name: prepare
+    init: make prepare
+
+vscode:
+  extensions:
+    - golang.go
