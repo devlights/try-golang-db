@@ -1,8 +1,8 @@
 module github.com/devlights/try-golang-database
 
-go 1.17
+go 1.21.5
 
 require (
-	github.com/devlights/gomy v0.3.2
-	github.com/mattn/go-sqlite3 v1.14.11
+	github.com/devlights/sqlmap v0.1.1
+	github.com/mattn/go-sqlite3 v1.14.19
 )

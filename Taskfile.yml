@@ -17,17 +17,3 @@ tasks:
       - go mod download
     silent: true
     ignore_error: true
-  run-open:
-    dir: open
-    preconditions:
-      - (test -f ../{{.DB}})  
-    cmds:
-      - go build
-      - ./open
-  run-ping:
-    dir: ping
-    preconditions:
-      - (test -f ../{{.DB}})
-    cmds:
-      - go build
-      - ./ping

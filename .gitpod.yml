@@ -1,5 +1,7 @@
 
-image: gitpod/workspace-go:latest
+image:
+  file: .gitpod.Dockerfile
+
 tasks:
   - name: initial
     init:
@@ -8,9 +10,8 @@ tasks:
       go install golang.org/x/tools/cmd/goimports@latest &&
       go install github.com/mgechev/revive@latest &&
       go install github.com/go-delve/delve/cmd/dlv@latest &&
-      go install go.uber.org/nilaway/cmd/nilaway@latest
-  - name: prepare
-    command: task download
+      go install go.uber.org/nilaway/cmd/nilaway@latest &&
+      task download
 
 vscode:
   extensions:
