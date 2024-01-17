@@ -1,6 +1,6 @@
 module github.com/devlights/try-golang-database
 
-go 1.21.5
+go 1.21.6
 
 require (
 	github.com/devlights/sqlmap v0.1.1
