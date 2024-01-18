@@ -7,6 +7,8 @@
 
 ## 参考情報
 
+### ブログ記事など
+
 - [Tutorial: Accessing a relational database](https://go.dev/doc/tutorial/database-access)
 - [Accessing relational databases](https://go.dev/doc/database/index)
 - [Opening a database handle](https://go.dev/doc/database/open-handle)
@@ -19,6 +21,18 @@
 - [Avoiding SQL injection risk](https://go.dev/doc/database/sql-injection)
 - [Golang with database operations](https://dev.to/burrock/golang-with-database-operations-3jl0)
 - [Go言語でSQLite3を使う](https://zenn.dev/teasy/articles/go-sqlite3-sample)
+
+
+### ドライバやORMなど
+
 - [mattn/go-sqlite3](https://github.com/mattn/go-sqlite3)
 - [glebarez/go-sqlite](https://github.com/glebarez/go-sqlite)
 - [modernc.org/sqlite](https://gitlab.com/cznic/sqlite)
+- [uptrace/bun](https://github.com/uptrace/bun)
+- [sqlx](https://github.com/jmoiron/sqlx)
+- [sqlc](https://github.com/sqlc-dev/sqlc)
+- [textql](https://github.com/dinedal/textql)
+- [xlsxsql](https://github.com/noborus/xlsxsql)
+- [trdsql](https://github.com/noborus/trdsql)
+- [gorm](https://github.com/go-gorm/gorm)
+- [ent](https://github.com/ent/ent)
