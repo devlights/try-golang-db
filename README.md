@@ -37,3 +37,4 @@
 - [trdsql](https://github.com/noborus/trdsql)
 - [gorm](https://github.com/go-gorm/gorm)
 - [ent](https://github.com/ent/ent)
+- [sqlmap](https://github.com/devlights/sqlmap)
