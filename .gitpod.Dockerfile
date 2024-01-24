@@ -21,4 +21,4 @@ RUN curl -fsSL https://dl.google.com/go/go${GO_VERSION}.linux-amd64.tar.gz | tar
     printf '%s\n' 'export GOPATH=/workspace/go' \
                       'export PATH=$GOPATH/bin:$PATH' > $HOME/.bashrc.d/300-go
 
-RUN sudo apt update && sudo apt install -y universal-ctags tree nkf
+RUN sudo apt update && sudo apt install -y universal-ctags tree nkf sqlite3
