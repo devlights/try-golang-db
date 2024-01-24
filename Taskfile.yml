@@ -17,6 +17,10 @@ tasks:
       - go mod download
     silent: true
     ignore_error: true
+  fmt:
+    cmds:
+      - find . -name '*.go' -exec goimports -w {} +
+    ignore_error: true
   vet:
     cmds:
       - go vet ./...

@@ -73,6 +73,12 @@ func main() {
 	if err := run(); err != nil {
 		panic(err)
 	}
+
+	/*
+		$ task
+		task: [default] go run main.go
+		Database Open: driver=sqlite3   datasource=../chinook.db
+	*/
 }
 
 const (
