@@ -17,3 +17,8 @@ tasks:
       - go mod download
     silent: true
     ignore_error: true
+  vet:
+    cmds:
+      - go vet ./...
+      - staticcheck ./...
+    ignore_error: true
