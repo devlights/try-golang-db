@@ -45,7 +45,7 @@ var (
 	db *sql.DB
 )
 
-// 02.QueryRows
+// 02.Query
 //
 // クエリを発行し結果を取得するには DB.Query() を利用する。
 //
