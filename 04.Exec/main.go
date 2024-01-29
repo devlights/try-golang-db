@@ -104,7 +104,7 @@ func run() error {
 		affected int64
 	)
 
-	result, err = db.Exec("INSERT INTO artists (ArtistId, Name) VALUES (999, 'test')")
+	result, err = db.Exec("INSERT INTO artists (ArtistId, Name) VALUES (?, ?)", 999, "test")
 	if err != nil {
 		return fmt.Errorf("db.Exec: %w", err)
 	}
