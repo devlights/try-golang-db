@@ -10,4 +10,4 @@ tasks:
     cmds:
       - cp -f ../chinook.db .
       - go run main.go
-      - echo "SELECT * FROM artists WHERE ArtistId=999" | sqlite3 -header -table {{.DBFILE}}
+      - echo "SELECT * FROM artists ORDER BY ArtistId DESC LIMIT 10" | sqlite3 -header -table {{.DBFILE}}
