@@ -1,0 +1,13 @@
+# https://taskfile.dev
+
+version: '3'
+
+vars:
+  DBFILE: ./chinook.db
+
+tasks:
+  default:
+    cmds:
+      - cp -f ../chinook.db .
+      - go run main.go
+      - echo "SELECT * FROM artists ORDER BY ArtistId DESC LIMIT 10" | sqlite3 -header -table {{.DBFILE}}
