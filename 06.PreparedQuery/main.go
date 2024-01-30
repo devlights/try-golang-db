@@ -106,9 +106,11 @@ func run() error {
 			if err != nil {
 				if errors.Is(err, sql.ErrNoRows) {
 					errCh <- fmt.Errorf("ErrNoRows: %d", i)
+					return
 				}
 
 				errCh <- fmt.Errorf("sql.Row.Scan: %w", err)
+				return
 			}
 
 			log.Printf("id=%v\tname=%v", id, name)
