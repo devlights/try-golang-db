@@ -2,7 +2,11 @@
 
 version: '3'
 
+vars:
+  DBFILE: chinook.db
+
 tasks:
   default:
     cmds:
+      - cp -f ../{{.DBFILE}} .
       - go run main.go

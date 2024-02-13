@@ -3,11 +3,11 @@
 version: '3'
 
 vars:
-  DBFILE: ./chinook.db
+  DBFILE: chinook.db
 
 tasks:
   default:
     cmds:
-      - cp -f ../chinook.db .
+      - cp -f ../{{.DBFILE}} .
       - go run main.go
-      - echo "SELECT * FROM artists WHERE ArtistId=999" | sqlite3 -header -table {{.DBFILE}}
+      - echo "SELECT * FROM artists WHERE ArtistId=999" | sqlite3 -header -table ./{{.DBFILE}}

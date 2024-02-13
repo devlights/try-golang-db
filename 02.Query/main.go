@@ -31,7 +31,7 @@ func main() {
 
 const (
 	driver     = "sqlite3"
-	datasource = "../chinook.db"
+	datasource = "./chinook.db"
 )
 
 type (
