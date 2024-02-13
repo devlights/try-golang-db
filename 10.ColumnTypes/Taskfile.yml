@@ -1,0 +1,13 @@
+# https://taskfile.dev
+
+version: "3"
+
+vars:
+  DBFILE: chinook.db
+
+tasks:
+  default:
+    cmds:
+      - cp -f ../{{.DBFILE}} .
+      - echo "PRAGMA table_info(tracks)" | sqlite3 -header -table ./{{.DBFILE}}
+      - go run main.go
