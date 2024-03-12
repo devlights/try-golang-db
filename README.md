@@ -35,6 +35,7 @@
 - [textql](https://github.com/dinedal/textql)
 - [xlsxsql](https://github.com/noborus/xlsxsql)
 - [trdsql](https://github.com/noborus/trdsql)
+- [scan](https://github.com/blockloop/scan)
 - [gorm](https://github.com/go-gorm/gorm)
 - [ent](https://github.com/ent/ent)
 - [sqlmap](https://github.com/devlights/sqlmap)
