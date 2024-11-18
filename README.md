@@ -22,6 +22,7 @@
 - [Golang with database operations](https://dev.to/burrock/golang-with-database-operations-3jl0)
 - [Go言語でSQLite3を使う](https://zenn.dev/teasy/articles/go-sqlite3-sample)
 - [Go ORMs Compared](https://dev.to/encore/go-orms-compared-2c8g)
+- [Go database/sql の操作ガイドあったんかい](https://sourjp.github.io/posts/go-db/)
 
 
 ### ドライバやORMなど
