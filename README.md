@@ -23,21 +23,24 @@
 - [Go言語でSQLite3を使う](https://zenn.dev/teasy/articles/go-sqlite3-sample)
 - [Go ORMs Compared](https://dev.to/encore/go-orms-compared-2c8g)
 - [Go database/sql の操作ガイドあったんかい](https://sourjp.github.io/posts/go-db/)
-
+- [Golangでsqlxを使う](https://zenn.dev/robon/articles/ff2419b7f5a76c)
+- [【Go】ORM、Bun について](https://zenn.dev/wasuwa/articles/f691f589da591c)
 
 ### ドライバやORMなど
 
 - [mattn/go-sqlite3](https://github.com/mattn/go-sqlite3)
-- [glebarez/go-sqlite](https://github.com/glebarez/go-sqlite)
+  - Native Driver (Cgoを必要とする)
 - [modernc.org/sqlite](https://gitlab.com/cznic/sqlite)
-- [uptrace/bun](https://github.com/uptrace/bun)
+  - Pure Driver (Cgoが必要ない)
+- [glebarez/go-sqlite](https://github.com/glebarez/go-sqlite)
+  - Pure Driver (modernc.org/sqlite のラッパー。GORM用のドライバなどが追加されている)
 - [sqlx](https://github.com/jmoiron/sqlx)
 - [sqlc](https://github.com/sqlc-dev/sqlc)
+- [uptrace/bun](https://github.com/uptrace/bun)
 - [textql](https://github.com/dinedal/textql)
 - [xlsxsql](https://github.com/noborus/xlsxsql)
 - [trdsql](https://github.com/noborus/trdsql)
 - [scan](https://github.com/blockloop/scan)
 - [gorm](https://github.com/go-gorm/gorm)
 - [ent](https://github.com/ent/ent)
-- [sqlmap](https://github.com/devlights/sqlmap)
 - [upper/db](https://github.com/upper/db)
