@@ -7,6 +7,9 @@ vars:
   URL: https://www.sqlitetutorial.net/wp-content/uploads/2018/03/chinook.zip
 
 tasks:
+  default:
+    cmds:
+      - task: build
   download:
     preconditions:
       - (! test -f {{.DB}})
@@ -26,3 +29,6 @@ tasks:
       - go vet ./...
       - staticcheck ./...
     ignore_error: true
+  build:
+    cmds:
+      - go build ./...
