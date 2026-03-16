@@ -35,6 +35,8 @@ func main() {
 	//
 	// データベースは起動する度にまっさらな状態で起動する。
 	//
+	// ダウンロードされた PostgreSQL は ~/.embedded-postgres-go に配置される。
+	//
 	log.Println("=> START")
 	defer func() { log.Println("=> END") }()
 
