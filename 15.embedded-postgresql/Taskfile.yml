@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+
+version: '3'
+
+vars:
+  NORTHWIND_URL: https://raw.githubusercontent.com/pthom/northwind_psql/master/northwind.sql 
+
+tasks:
+  default:
+    cmds:
+      - task: run
+  download-northwind:
+    cmds:
+      - wget {{.NORTHWIND_URL}}
+  build:
+    cmds:
+      - go build -o app main.go
+  run:
+    deps:
+      - build
+    cmds:
+      - ./app
