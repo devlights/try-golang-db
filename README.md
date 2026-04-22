@@ -34,8 +34,10 @@
 - [sqlx](https://github.com/jmoiron/sqlx)
 - [sqlc](https://github.com/sqlc-dev/sqlc)
 - [uptrace/bun](https://github.com/uptrace/bun)
+  - [GoのSQLファーストORM「bun」が最高すぎたのでGORM・entとベンチマーク比較してみた](https://zenn.dev/nonejp/articles/a16f3dcd365d0e)
 - [sqlboiler](https://github.com/aarondl/sqlboiler)
   - This package is currently in maintenance mode
+  - [DB変更に強いGolangのORM、SQLBOILERを使いこなすために知っておくこと](https://zenn.dev/omeroid/articles/0c9dcbc455a1f1)
 - [bob](https://github.com/stephenafamo/bob)
 - [textql](https://github.com/dinedal/textql)
 - [xlsxsql](https://github.com/noborus/xlsxsql)
