@@ -2,9 +2,6 @@
 
 [try-golang](https://github.com/devlights/try-golang) プロジェクトの姉妹版。データベースに関連しているサンプルが配置されています。
 
-![try-golang - Go Version](https://img.shields.io/badge/go-1.21-blue.svg)
-
-
 ## 参考情報
 
 ### ブログ記事など
@@ -37,6 +34,9 @@
 - [sqlx](https://github.com/jmoiron/sqlx)
 - [sqlc](https://github.com/sqlc-dev/sqlc)
 - [uptrace/bun](https://github.com/uptrace/bun)
+- [sqlboiler](https://github.com/aarondl/sqlboiler)
+  - This package is currently in maintenance mode
+- [bob](https://github.com/stephenafamo/bob)
 - [textql](https://github.com/dinedal/textql)
 - [xlsxsql](https://github.com/noborus/xlsxsql)
 - [trdsql](https://github.com/noborus/trdsql)
