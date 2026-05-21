@@ -16,7 +16,7 @@ import (
 )
 
 const (
-	dsn = "host=localhost port=5432 user=postgres password=postgres dbname=postgres sslmode=disable"
+	dsn = "host=localhost port=5555 user=postgres password=postgres dbname=postgres sslmode=disable"
 )
 
 var (
@@ -65,7 +65,7 @@ func run() error {
 		Username("postgres").
 		Password("postgres").
 		Database("postgres").
-		Port(5432).
+		Port(5555).
 		Version(embedpsql.V18).
 		StartTimeout(30 * time.Second).
 		Logger(logBuf)
